@@ -9,7 +9,7 @@
 # Installation 
 Link to javascript 
 ```bash 
-<script src="https://zakerxa.github.io/Javascript-Asia-LocalTimeZone/js/clock.js"></script>
+<script src="https://zakerxa.github.io/Asia-LocalTimeZone/js/clock.js"></script>
 ```
 
 # Usage
@@ -26,7 +26,7 @@ This wil be live in your site
 ```bash
  12:30:54 PM
 ```
-Click Here to [Watch Live](https://zakerxa.github.io/Javascript-Asia-LocalTimeZone/clock.html) data
+Click Here to [Watch Live](https://zakerxa.github.io/Asia-LocalTimeZone/clock.html) data
 
 
 <br>
