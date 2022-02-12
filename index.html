@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://zakerxa.github.io/Javascript-Asia-LocalTimeZone/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Asia Local TimeZone" />
+    <meta property="og:description" content="I will show you how to create easily Asia Local TimeZone Format." />
+    <meta property="og:image" content="images/Javascript-Asia-LocalTimeZone.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Local Time Zone</title>
+    <style>
+        .color {
+            color: rgb(35, 192, 35);
+        }
+    </style>
+</head>
+
+<body style="background-color: #111;">
+
+    <div class="container-fluid" id="app">
+        <div class="row justify-content-center p-2 text-muted">
+
+            <div class="col-12 p-4 text-center">
+                <h2 class="color">{{title}}</h2>
+            </div>
+
+            <div class="col-6 pt-3 text-md-center text-start">
+                <b>Date Style 1</b>
+                <h5 class="text-light pt-2">{{vdate1}}</h5>
+            </div>
+
+            <div class="col-6 pt-3 text-md-center text-end">
+                <b>Date Style 2</b>
+                <h5 class="text-light pt-2">{{vdate}}</h5>
+            </div>
+
+            <div class="col-12 pt-4 text-center" style="min-height: 100px;">
+                <b>{{region}} Live</b>
+                <h2 class="text-light pt-2">{{vtime}}</h2>
+            </div>
+
+            <div class="col-12 text-center p-5">
+                <select class="p-2 border-0 w-50" style="border-radius: 5px;" v-model="region" @change="onChange($event)">
+                    <option v-for="asia in asiaTimeZones" :value="asia">{{asia}}</option>
+                </select>
+            </div>
+
+            <div class="col-11 col-md-9 col-lg-6 p-0">
+
+                <p>
+                    <span class="text-light">*</span> Hello, My name is <span class="fw-bold text-warning">Zin Min Htet</span> & I'am {{ age }} years old right now.
+                </p>
+
+                <p>
+                    <span class="text-light">*</span> Now,I will show you how to created Javascript Local Timezone.
+                </p>
+                <p>
+                    <span class="text-light">*</span> This is only <a href="timezone.json" class="color" style="text-decoration: none;">Asia TimeZone
+                        format</a> you can use other Api.
+                </p>
+                <p>
+                    <span class="text-light">*</span> I create this site by using only <span class="fw-bold"> Vue js & Javascript.</span>
+                </p>
+                <p>
+                    <span class="text-light">*</span> You can use this code for freely for your site.That can help you just a little bit.
+                </p>
+
+                <p>
+                    <span class="text-light">*</span> Learn code from <a href="https://github.com/Zakerxa/Javascript-Asia-LocalTimeZone" class="color" style="text-decoration: none;">here . .</a>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
