@@ -32,4 +32,4 @@ Click Here to [Watch Live](https://zakerxa.github.io/Asia-LocalTimeZone/clock.ht
 <br>
 
 ## Customize Date,Time
-If you wanna customize more features learn from [index.js](https://github.com/Zakerxa/Javascript-Asia-LocalTimeZone/blob/master/js/index.js)
+If you wanna customize more features learn from [index.js](https://github.com/Zakerxa/Asia-LocalTimeZone/blob/master/js/index.js)
